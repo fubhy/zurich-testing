@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+>
+  <MyChildComponent>
+    Click me!
+  </MyChildComponent>
+</button>
+`;
+
+exports[`Button renders correctly with prop 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "orange",
+    }
+  }
+>
+  <span>
+    Click me!
+  </span>
+</button>
+`;
